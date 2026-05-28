@@ -1893,9 +1893,9 @@
             let evaluationAward = "Fail";
             let dashboardClass = "fail-style";
 
-            if (finalPct >= 85) { evaluationAward = "Distinction"; dashboardClass = "pass-style"; }
+            if (finalPct >= 90) { evaluationAward = "Distinction"; dashboardClass = "pass-style"; }
             else if (finalPct >= 70) { evaluationAward = "Merit"; dashboardClass = "pass-style"; }
-            else if (finalPct >= 50) { evaluationAward = "Pass"; dashboardClass = "pass-style"; }
+            else if (finalPct >= 60) { evaluationAward = "Pass"; dashboardClass = "pass-style"; }
 
             let dashBox = document.getElementById('dashboard');
             dashBox.style.display = 'block';
